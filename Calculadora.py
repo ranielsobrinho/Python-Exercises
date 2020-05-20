@@ -1,6 +1,6 @@
 #estudando estrutura de repetição
 while True:
-    operador = input("Digite '+','-','*' ou '/' para fazer a operação matemática:")
+    operador = input("Digite '+','-','*' ou '/' para fazer a operação matemática ou 'q' para sair:")
     if operador == 'q' or operador == 'Q':
         break
     elif operador == '+' or operador == '-' or operador == '*' or operador == '/':
